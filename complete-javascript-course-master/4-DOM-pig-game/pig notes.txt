@@ -1,0 +1,12 @@
+Watch Dom access and manipulation again!!!
+
+we have to select a button to add an event like roll a dice :
+document.query selector(.classOfdice) //this will select dice
+
+for rolling:
+document.querryselector(.btnrollClass) //we have our selection now
+
+
+To add an event listener:
+
+document.querryselector(.btnrollClass).addEventListener(eventType(example click),funcn to be called during event)

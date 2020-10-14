@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+	<style type="text/css">
+		header {
+			display: flex;
+			align-items:center;
+			justify-content: space-between;
+			padding: 10px;
+			height: 100px;
+			background: orange;
+		}
+		input[type="button"]{
+			border-radius: 2px;
+			background: #fbfbfb;
+			font-weight: bold;
+			padding: 10px;
+			border:none;
+			color: black;
+			cursor: pointer;
+		}
+
+		input[type="button"]:hover
+		{			
+			background: black;
+			color: whitesmoke;
+		}
+	</style>
+	
+</head>
+<body>
+	<script>
+		onClick =()=>alert("I am clicked");
+	</script>
+	<header>
+		<h1>My Website</h1>
+		<input type="button" onclick="alert('I am clicked')" value="Login" />
+	</header>
+	<section>
+		<p> This is the body of my website</p>
+	</section>
+</body>	

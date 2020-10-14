@@ -1,0 +1,7 @@
+to create multiple similar pattern objects we use a blueprint called constructor
+it then creates several objects called instances
+
+every object has property which enables the inheritance(research more on this)
+Prototype property of an object is where we put methods and properties that we want to inherit
+
+(learn about prototypes and prototype chain)

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
+
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: raleway;
+        }
+
+        body {
+
+            
+            background-color: #344a72;
+
+        }
+
+        #container {
+            height: 700px;
+            width: 440px;
+            background-color: white;
+            margin: auto;
+            margin-top: 50px;
+            /* I didnt use padding before 
+            but I had to along with universal box sizing  */
+            padding: 18px;
+            /* text-align: center; no */
+        }
+
+        #container h1 {
+            text-align: center;
+            padding-top: 10px;
+        }
+
+        #container h2 {
+            text-align: center;
+        }
+
+        #form {
+            /* margin-left: 15px;  Dont Use it*/
+        }
+
+        input {
+            margin-top: 5px;
+        }
+
+        input {
+            width: 100%;
+            height: 30px;
+            border-radius: 2px;
+            border: solid 0.7px #C0C0C0;
+
+        }
+
+        button {
+            display: block;
+            width: 100%;
+            height: 40px;
+            border: none;
+            background-color: #49c1a2;
+            color: white;
+            border-radius: 7px;
+        }
+
+        button:hover {
+
+            background-color: #37a08e;
+        }
+
+        #form a {
+
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            color: blue;
+
+        }
+
+        #main footer h3 {
+            text-align: center;
+            color: white;
+        }
+
+        #main footer h3 a {
+            text-decoration: none;
+            color: #49c1a2 
+            
+        }
+        h3{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div id="container">
+            <h1>Sign Up</h1>
+            <h2>It`s Free and only takes a minute</h2>
+            <form id="form">
+                <label for="name" id="name">First Name</label><br>
+                <input type="text" id="name"><br><br>
+                <label for="name" id="name">Last Name</label><br>
+                <input type="text" id="name"><br><br>
+                <label for="email" id="email">Email</label><br>
+                <input type="text" id="email"><br><br>
+                <label for="password" id="password">Password</label><br>
+                <input type="text" id="password"><br><br>
+                <label for="password" id="password">Confirm Password</label><br>
+                <input type="text" id="password"><br><br>
+                <button>Sign Up</button><br><br>
+                <h3>By clicking Sign Up button you agree to our</h3>
+                <h3><a href="#">Terms & Conditions and Privacy Policy</a></h3>
+            </form>
+
+        </div>
+        <footer>
+            <h3>Already have an account?<a href="#"> Login Here</a></h3>
+        </footer>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+What if we dont use meta tag? And why use it after  all?
+rel,type href? What are they
+What things does http equiv do?
+What  is utf 8?
+Tags attributes elements?
+Difference between single quotes and double quotes
+Why universal (*) selector is not advised to use in official projects?
+7. DISPLAY conversion among BLOCK, INLINE and INLINE-BLOCK??
+8. Aria roles?? what the heck?
+9.What is DOM?
+
+

@@ -1,0 +1,12 @@
+img{width:400px ; height:250px;}
+    	 p{font-size:1em}
+    	}
+        .red{color:red; ;}
+        .blue{color:blue;}
+        #ID_green{color:green;}
+        h1 {color:blue;}
+        @font-face{
+
+        	font-family:my_font;
+        	src:url('AdventPro-Regular.ttf')
+        }
